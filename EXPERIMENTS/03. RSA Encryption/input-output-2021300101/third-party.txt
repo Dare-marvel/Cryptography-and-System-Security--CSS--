@@ -1,0 +1,23 @@
+(myenv) PS C:\Users\aspur\OneDrive\CSS\CSS -3\exp3\source-codes-2021300101\src> python .\third-party.py
+WebSocket server started on ws://localhost:3000
+Public key 209,7 registered for adwait
+
+Public key 299,5 registered for jay
+
+Public key requested for jay
+{'adwait': '209,7', 'jay': '299,5'}
+Public key requested for jay
+{'adwait': '209,7', 'jay': '299,5'}
+Public key 299,5 registered for jay
+
+Public key 209,7 registered for adwait
+
+{'adwait': '209,7', 'jay': '299,5'}
+Public key 299,5 registered for jay
+
+Public key 209,7 registered for adwait
+
+Public key requested for jay
+{'adwait': '209,7', 'jay': '299,5'}
+Public key requested for jay
+{'adwait': '209,7', 'jay': '299,5'}

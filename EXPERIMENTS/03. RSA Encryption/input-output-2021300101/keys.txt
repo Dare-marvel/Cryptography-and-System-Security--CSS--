@@ -1,0 +1,8 @@
+For sender:
+    name: adwait
+    primes: 11,19
+
+For receiver:
+    name: jay
+    primes: 23,13
+    address: ws://localhost:4000
