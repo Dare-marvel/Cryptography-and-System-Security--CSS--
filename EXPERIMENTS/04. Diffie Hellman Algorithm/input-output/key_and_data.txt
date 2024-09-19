@@ -1,0 +1,22 @@
+
+sent key
+
+{'a': 'r', 'b': 'm', 'c': 'o', 'd': 'y', 'e': 'k', 'f': 'q', 'g': 'n', 'h': 'c', 'i': 'g', 'j': 'a', 'k': 'p', 'l': 'l', 'm': 'd', 'n': 'z', 'o': 'b', 'p': 's', 'q': 'w', 'r': 't', 's': 'e', 't': 'h', 'u': 'u', 'v': 'f', 'w': 'x', 'x': 'v', 'y': 'j', 'z': 'i'}
+
+
+received key
+
+{'r': 'a', 'm': 'b', 'o': 'c', 'y': 'd', 'k': 'e', 'q': 'f', 'n': 'g', 'c': 'h', 'g': 'i', 'a': 'j', 'p': 'k', 'l': 'l', 'd': 'm', 'z': 'n', 'b': 'o', 's': 'p', 'w': 'q', 't': 'r', 'e': 's', 'h': 't', 'u': 'u', 'f': 'v', 'x': 'w', 'v': 'x', 'j': 'y', 'i': 'z'}
+
+
+plain text
+
+Indianhistoryisrichanddiverse,spanningthousandsofyearsandshapedbytheinfluenceofvariouscultures,civilizations,andempires.FromtheancientIndusValleyCivilizationtotheriseoftheMauryaandGuptaEmpires,Indiahasevolvedthroughdynasticrule,trade,andculturalexchange.ThecomingofIslaminthesubcontinentledtotheestablishmentoftheDelhiSultanateandtheMughalEmpire,markingaperiodofculturalfusionandarchitecturalmarvels.Britishcolonialruleusheredinanewera,leadingtosignificantpoliticalandsocialchanges.Eventually,India'sstruggleforindependence,guidedbyleaderslikeMahatmaGandhi,resultedinthecountry'sfreedomin1947.Today,India'srichheritageisreflectedinitslanguages,religions,art,andarchitecture,creatingacomplexyetunifiednationalidentity.
+
+
+Encrypted message
+
+lqclmqvloguwblowlxvmqcclzewoe,ofmqqlqjgvuaomqcoukbemwomqcovmfectbgvelqkraeqxeukzmwluaoxargaweo,xlzlrlsmgluqo,mqcehflweo.kwuhgvemqxleqglqcaozmrrebxlzlrlsmgluqgugvewloeukgvehmawbmmqcjafgmehflweo,lqclmvmoezurzecgvwuajvcbqmoglxware,gwmce,mqcxargawmrenxvmqje.gvexuhlqjuklormhlqgveoatxuqglqeqgrecgugveeogmtmoglxware,gwmce,mqcxargawmrenxvmqje.gvexuhlqjuklormhlqgveoatxuqglqeqgrecgugveeogmtrlovheqgukgvecervloargmqmgemqcgvehajvmrehflwe,hmwylqjmfewlucukxargawmrkaoluqmqcmwxvlgexgawmrhmwzero.twlglovxuruqlmrwareaoveweclqmqepewm,remclqjguoljqlklxmqgfurlglxmvlgexgawmrhmwzero.twlglovxuruqlmrwareaoveweclqmqepewm,remclqjguoljqlklxmqgfurlglxmrmqcouxlmrxvmqjeo.ezeqgamrrb,lqclm'oogwajjrekuwlqcefeqceqxe,jalcectbremceworlyehmvmghmjmqcvl,weoargeclqgvexuaqgwb'okweecuhlq1947.gucmb,lqclm'owlxvvewlgmjelowekrexgeclqlgormqjamjeo,werljluqo,mwg,mqcmwxvlgexgawe,xwemglqjmxuhfrenbegaqlklecqmgluqmrlcclqlgormqjamjeo,werljluqo,mwg,mqcmwxvlgexgawe,xwemglqjmxuhfrenbegaqlklecqmgluqmrlceqglgb.
+
+
+

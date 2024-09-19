@@ -1,0 +1,41 @@
+sender.py 
+aspur@Sacred-Odyssey MINGW64 ~/OneDrive/CSS/exp 4/source-codes-2021300101
+$ python sender.py 
+Connected to receiver at 127.0.0.1:3333
+
+1. Generate Key using Diffie-Hellman
+2. Send Message using Monoalphabetic Cipher
+3. Exit
+Select an option: 1
+Shared key is generated: 10
+Substitution key: {'a': 'm', 'b': 't', 'c': 'x', 'd': 'c', 'e': 'e', 'f': 'k', 'g': 'j', 'h': 'v', 'i': 'l', 'j': 'd', 'k': 'y', 'l': 'r', 'm': 'h', 'n': 'q', 'o': 'u', 'p': 'f', 'q': 'i', 'r': 'w', 's': 'o', 't': 'g', 'u': 'a', 'v': 'z', 'w': 'p', 'x': 'n', 'y': 'b', 'z': 's'}
+
+1. Generate Key using Diffie-Hellman
+2. Send Message using Monoalphabetic Cipher
+3. Exit
+Select an option: 2
+Enter a message: Indianhistoryisrichanddiverse,spanningthousandsofyearsandshapedbyEnter a message: Indianhistoryisrichanddiverse,spanningthousandsofyearsandshapedbytheinfluenceofvariouscultures,civilizations,andempires.FromtheancientIndusValleyCivilizationtotheriseoftheMauryaandGuptaEmpires,Indiahasevolvedthroughdynasticrule,trade,andculturalexchange.ThecomingofIslaminthesubcontinentledtotheestablishmentoftrade,andculturalexchange.ThecomingofIslaminthesubcontinentledtotheestablishmentoftheDelhiSultanateandtheMughalEmpire,markingaperiodofculturalfusionandarchitecturalmarvels.Britishcolonialruleusheredinanewera,leadingtosignificantpoliticalandsocialchanges.Eventually,India'sstruggleforindependence,guidedbyleaderslikeMahatmaGandhi,resultedinthecountry'sfreedomin1947.Today,India'srichheritageisreflectedinitslanguages,religions,art,andarchitecture,creatingacomplexyetunifiednationalidentity.    
+Message sent successfully.
+
+1. Generate Key using Diffie-Hellman
+2. Send Message using Monoalphabetic Cipher
+3. Exit
+Select an option: 3
+Exiting...
+
+receiver.py
+aspur@Sacred-Odyssey MINGW64 ~/OneDrive/CSS/exp 4/source-codes-2021300101
+$ python receiver.py 
+Receiver is listening on port 3333
+Waiting for a connection...
+Connected by ('127.0.0.1', 53224)
+Waiting to receive the client's public key...
+Received client public key: 14
+Sent own public key: 7
+Shared key generated: 10
+Substitution key: {'m': 'a', 't': 'b', 'x': 'c', 'c': 'd', 'e': 'e', 'k': 'f', 'j': 'g', 'v': 'h', 'l': 'i', 'd': 'j', 'y': 'k', 'r': 'l', 'h': 'm', 'q': 'n', 'u': 'o', 'f': 'p', 'i': 'q', 'w': 'r', 'o': 's', 'g': 't', 'a': 'u', 'z': 'v', 'p': 'w', 'n': 'x', 'b': 'y', 's': 'z'}
+Received encrypted message: lqclmqvloguwblowlxvmqcclzewoe,ofmqqlqjgvuaomqcoukbemwomqcovmfectbgvelqkraeqxeukzmwluaoxargaweo,xlzlrlsmgluqo,mqcehflweo.kwuhgvemqxleqglqcaozmrrebxlzlrlsmgluqgugvewloeukgvehmawbmmqcjafgmehflweo,lqclmvmoezurzecgvwuajvcbqmoglxware,gwmce,mqcxargawmrenxvmqje.gvexuhlqjuklormhlqgveoatxuqglqeqgrecgugveeogmtmoglxware,gwmce,mqcxargawmrenxvmqje.gvexuhlqjuklormhlqgveoatxuqglqeqgrecgugveeogmtrlovheqgukgvecervloargmqmgemqcgvehajvmrehflwe,hmwylqjmfewlucukxargawmrkaoluqmqcmwxvlgexgawmrhmwzero.twlglovxuruqlmrwareaoveweclqmqepewm,remclqjguoljqlklxmqgfurlglxmvlgexgawmrhmwzero.twlglovxuruqlmrwareaoveweclqmqepewm,remclqjguoljqlklxmqgfurlglxmrmqcouxlmrxvmqjeo.ezeqgamrrb,lqclm'oogwajjrekuwlqcefeqceqxe,jalcectbremceworlyehmvmghmjmqcvl,weoargeclqgvexuaqgwb'okweecuhlq1947.gucmb,lqclm'owlxvvewlgmjelowekrexgeclqlgormqjamjeo,werljluqo,mwg,mqcmwxvlgexgawe,xwemglqjmxuhfrenbegaqlklecqmgluqmrlcclqlgormqjamjeo,werljluqo,mwg,mqcmwxvlgexgawe,xwemglqjmxuhfrenbegaqlklecqmgluqmrlceqglgb.
+
+Decrypted message: indianhistoryisrichanddiverse,spanningthousandsofyearsandshapedbytheinfluenceofvariouscultures,civilizations,andempires.fromtheancientindusvalleycivilizationtotheriseofthemauryaandguptaempires,indiahasevolvedthroughdynasticrule,trade,andculturalexchange.thecomingofislaminthesubcontinentledtotheestablishmentofthedelhisultanateandthemughalempire,markingaperiodofculturalfusionandarchitecturalmarvels.britishcolonialruleusheredinanewera,leadingtosignificantpoliticalandsocialchanges.eventually,india'sstruggleforindependence,guidedbyleaderslikemahatmagandhi,resultedinthecountry'sfreedomin1947.today,india'srichheritageisreflectedinitslanguages,religions,art,andarchitecture,creatingacomplexyetunifiednationalidentity.  
+No more messages. Closing connection.
+Connection closed. Waiting for a new connection...
