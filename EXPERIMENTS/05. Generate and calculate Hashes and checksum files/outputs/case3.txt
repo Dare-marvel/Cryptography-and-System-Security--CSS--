@@ -1,0 +1,14 @@
+(venv)
+PS C:\Users\aspur\OneDrive\CSS\CSS_Exp_5_2021300101\CSS_Exp_5> python -u "c:\Users\aspur\OneDrive\CSS\CSS_Exp_5_2021300101\CSS_Exp_5\case3.py"
+Case 1
+Sending message: Python
+Hash: 4a594a4f420d1de9f0520330891607ffcb930957979a23baacaf08ae6a16b75b22d74c1dc855932f80ced9c7b60f107b229a0e486634dac223f9db6b8ce1e218
+Message hashes matching
+Message: Python
+Hash: 4a594a4f420d1de9f0520330891607ffcb930957979a23baacaf08ae6a16b75b22d74c1dc855932f80ced9c7b60f107b229a0e486634dac223f9db6b8ce1e218
+Received message: Python
+
+Case 2
+Sending message: csslab
+Hash: 48d39e71cc57253a3f7f5bc17070b87abd78f1edfd7d35ab8d437f880ff6f6f082b387d33761356a5fdcfdf82fc80665118248312a5fad8d75ccf350b07dfe06
+Message hashes not matching! Message corrupted.
