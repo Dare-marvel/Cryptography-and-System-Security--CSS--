@@ -1,2 +1,0 @@
-This is an example message that has more than one hundred and seventy characters. It is used to demonstrate how the Rail Fence Cipher handles longer messages. This should be sufficient for our test.
-3
